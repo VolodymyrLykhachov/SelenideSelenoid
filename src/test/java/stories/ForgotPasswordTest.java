@@ -9,8 +9,8 @@ import steps.LoginSteps;
 
 import static com.codeborne.selenide.Selenide.open;
 
-@Guice
-public class ForgotPasswordTest {
+
+public class ForgotPasswordTest extends AbstractTest {
     @Inject
     private HomeSteps homesteps;
     @Inject

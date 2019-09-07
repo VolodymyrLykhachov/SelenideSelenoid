@@ -9,8 +9,8 @@ import steps.LoginSteps;
 
 import static com.codeborne.selenide.Selenide.open;
 
-@Guice
-public class LoginTest {
+
+public class LoginTest extends AbstractTest {
 
     @Inject
     private HomeSteps homesteps;
